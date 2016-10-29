@@ -9,8 +9,7 @@
 > npm run dev
 ```
 
-Edit ```index.js``` to use your own video.
-
+Point your browser at http://localhost:8080. Edit ```index.js``` to use your own video.
 
 ### How it works
 The component renders a hidden HTML ```video``` element, and then uses a hidden ```canvas``` element to sample still frames from the video, resize them, and map them to a block of ascii characters. The component uses ```dangerouslySetInnerHTML``` to render the characters.

@@ -1,0 +1,15 @@
+body {
+	background-color: #111111;
+}
+
+.hidden {
+	display: none;
+}
+
+.char-video {
+	line-height: 14px;
+	background-color: #111111;
+	font-size: 14px;
+	font-family: monospace;
+	font-weight: bolder;
+}

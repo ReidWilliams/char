@@ -1,0 +1,37 @@
+{
+  "name": "char",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "author": {
+    "name": "Reid Williams"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --content-base client/ --inline"
+  }
+}

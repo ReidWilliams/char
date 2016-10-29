@@ -12,13 +12,13 @@ module.exports = {
   // Entry points into the build process
   entry: [
     'webpack/hot/dev-server',
-    path.join(__dirname, '/client/index.js')
+    path.join(__dirname, '/index.js')
   ],
   
   // Output build path
   output: {
-    path: path.join(__dirname, '/dist/'),
-    publicPath: '/dist/',
+    path: __dirname,
+    publicPath: '/',
     filename: 'bundle.js'
   },
 

@@ -1,6 +1,7 @@
 # Char
 > A React component that displays a video file as animated ascii
-> See it [live](https://reidwilliams.github.io/char)
+
+### See it [live](https://reidwilliams.github.io/char)
 
 ### Try it out
 ```shell
